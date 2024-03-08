@@ -1,0 +1,276 @@
+/* typography */
+h1 {
+    color:rgb(234, 212, 157);
+    background-color: rgb(92, 165, 92);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 200%;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-shadow: 1px 3px 1px rgb(224, 55, 95);
+}
+
+h2 {
+    color:rgb(234, 212, 157);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 100%;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(237, 247, 191);
+}
+
+header p a {
+    text-decoration: none;
+}
+
+.p1 p {
+    margin-top: 10px;
+    text-indent: 25px;
+    color: rgb(196, 230, 104);
+}
+
+p {
+    margin-top: 10px;
+    text-indent: 25px;
+    color: rgb(196, 230, 104);
+}
+
+.brand-color {
+    color: rgb(191, 247, 234);
+    background-color: rgb(67, 102, 141);
+    font-size: larger;
+}
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* end of typography */
+
+/* media query */
+
+
+@media screen and (max-width: 480px) {
+    .content-area {
+        padding-left: 20px;
+        padding-right: 20px;
+
+        img {
+            width: 360px;
+            min-width: 50px;
+            max-width: 1000px;
+            height: 360px;
+            min-height: 50px;
+            max-height: 1000px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+        .content-area {
+            max-width: 1300px;
+        }
+}
+
+@media screen and (max-width: 700px) {
+    .main {
+        width: auto;
+        float: none;
+    }
+}
+    .main {
+        padding-right: 0;
+    }
+
+    @media screen and (max-width: 70) {
+        .site-nav li {
+            width: 50%;
+            margin-right: 0;
+        }
+    
+        .site-nav a {
+            padding: 20px 0;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        
+    }
+
+
+/* end of media query */
+
+/* coloring thingies */
+.content-area {
+    border-top: 3px solid rgb(74, 159, 125);
+    border-bottom: 3px solid rgb(74, 159, 125);
+}
+
+.main {
+    width: 70%;
+    float: left;
+}
+
+.support {
+    width: 30%;
+    float: left;
+}
+
+.fix {
+    clear: both;
+}
+
+html {
+    background-color: rgb(67, 141, 112);
+}
+/* end of coloredg thingies */
+
+
+/* site nav */
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.site-nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: rgb(237, 247, 191);
+    padding: 10px 20px;
+    border: 3px solid rgb(143, 201, 99);
+    display: block;
+}
+
+.site-nav a:hover {
+    background-color:rgb(224, 55, 95);
+}
+/* end site nav */
+
+/*media query */
+
+/* end of media query */
+
+/* form styles */
+form {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(196, 230, 104);
+    text-shadow: 1px 3px 1px rgb(224, 55, 95);
+    letter-spacing: 1px;
+    background-color: rgb(74, 159, 125);
+    padding: 30px 40px;
+}
+
+input[type="text"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    font-size: 100%;
+    margin-bottom: 20px;
+    border: 1px solid rgb(67, 102, 141);
+}
+
+input[type="submit"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: rgb(67, 102, 141);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(237, 247, 191);
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+/* end of form styles */
+
+/* table styles */
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th {
+    text-align: left;
+    background-color:  rgb(172, 78, 110);
+    color: rgb(234, 212, 157);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+table th, table td{
+    border: 3px solid rgb(67, 141, 112);
+    padding: 10px;
+}
+
+table tbody {
+    background-color:rgb(72, 113, 160);
+    color:  rgb(183, 252, 130);
+}
+
+table tbody thead {
+    text-align: center;
+}
+
+.col-dinosaur {
+    width: 60%
+}
+
+.col-time {
+    width: 20%
+}
+/* end of table styles */
+
+/* slideshow */
+img {
+    width: 800px;
+    min-width: 100px;
+    max-width: 2000px;
+    height: 800px;
+    min-height: 100px;
+    max-height: 2000px;
+}
+.image-banner {
+position: center;
+top: 30px;
+left: 100px;
+margin-bottom: 20px;
+padding-bottom: 20px;
+}
+
+.image-banner img {
+display: block;
+}
+
+.cycle-slideshow {
+margin-bottom: 30px;
+width: 100%;
+box-sizing: border-box;
+}
+
+.slide {
+width: 60%;
+position: relative;
+margin-bottom: 10px;
+box-sizing: border-box;
+}
+/* end of slideshow */
